@@ -1,1 +1,113 @@
-/* Add you CSS here */
+/* Simple beginner-friendly styles for a centered portfolio page */
+
+:root {
+  --background: goldenrod;
+  --surface: #7b1f2c;
+  --text: goldenrod;
+  --primary: #7b1f2c;
+  --accent: #e07a32;
+  --border: darkgoldenrod;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.site-header {
+  background: var(--primary);
+  color: var(--text);
+  padding: 18px 0;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1.9rem;
+}
+
+.brand p {
+  margin: 8px 0 0;
+  color: var(--text);
+}
+
+.site-nav {
+  margin-top: 14px;
+}
+
+.site-nav a {
+  color: var(--text);
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  color: #fff;
+}
+
+.section {
+  margin-top: 24px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+h2 {
+  color: var(--text);
+  margin-top: 0;
+}
+
+h3 {
+  margin: 16px 0 8px;
+  color: var(--text);
+}
+
+.skill-list,
+.favorite-list {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.skill-list li,
+.favorite-list li {
+  margin-bottom: 8px;
+}
+
+.project-item {
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  margin-top: 14px;
+}
+
+.project-item:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.site-footer {
+  padding: 16px 0;
+  margin-top: 30px;
+  color: var(--text);
+}

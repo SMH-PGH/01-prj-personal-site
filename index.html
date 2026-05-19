@@ -2,10 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <h1>My Portfolio</h1>
+        <p>Web development student building strong projects.</p>
+      </div>
+      <nav class="site-nav">
+        <a href="#bio">Bio</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="bio" class="section card">
+      <h2>Bio</h2>
+      <p>Hello! I am a student learning web development. I enjoy creating clean websites, solving problems, and designing simple user experiences. This portfolio shows the projects I will build during my course.</p>
+    </section>
+
+    <section id="skills" class="section card">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript basics</li>
+        <li>Responsive design</li>
+        <li>Problem solving</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section card">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>Project One</h3>
+        <p>A simple website layout that introduces a personal brand and displays information clearly.</p>
+      </div>
+      <div class="project-item">
+        <h3>Project Two</h3>
+        <p>A responsive page using basic HTML and CSS to practice design, spacing, and navigation.</p>
+      </div>
+      <div class="project-item">
+        <h3>Project Three</h3>
+        <p>An interactive learning project where I use JavaScript to make the page more dynamic.</p>
+      </div>
+    </section>
+
+    <section id="favorites" class="section card">
+      <h2>Favorites</h2>
+      <p>My favorite tools and inspirations right now include creative coding, simple website layouts, clean typography, and learning new development techniques step-by-step.</p>
+      <ul class="favorite-list">
+        <li>Writing HTML structure</li>
+        <li>Styling with CSS</li>
+        <li>Designing easy-to-read pages</li>
+        <li>Using maroon and orange for color palettes</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section card">
+      <h2>Contact</h2>
+      <p>If you want to connect, send a message or follow my work. I am open to feedback and collaboration.</p>
+      <p><strong>Email:</strong> example@email.com</p>
+      <p><strong>Location:</strong> My college town</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Sophia Hartland Portfolio. Designed for max appeal.</p>
+    </div>
+  </footer>
 </body>
 </html>
