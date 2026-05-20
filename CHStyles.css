@@ -1,0 +1,66 @@
+body{
+	background-color:goldenrod;
+	color:maroon;
+}
+
+h1{
+	background-color:goldenrod;
+	color:maroon;
+
+}
+h2{
+	background-color:goldenrod;
+	color:maroon;
+}
+h3{
+	background-color:goldenrod;
+	color:maroon;
+}
+button {
+
+	background-color:darkgoldenrod;
+	color:maroon;
+	border:double;
+}
+a{
+    text-decoration:none;
+}
+.img1 {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid maroon;
+}
+.img2 {
+	border: 5px dotted maroon;
+}
+
+.MainProfile{ 
+	margin-right: auto;
+    margin-left: auto;
+    float:left;
+	 border: 5px solid maroon;
+	 background-color: goldenrod;
+	 width: 25%;
+	 height:100%;
+}
+.MiddleProfile{
+	margin-right: auto;
+    margin-left: auto;
+	float:left;
+	border: 5px solid maroon;
+	 background-color: goldenrod;
+	 width: 25%;
+	 height:100%;
+	 margin: 0 auto;  
+    display: block;
+}
+.LastProfile{ 
+	margin-right: auto;
+    margin-left: auto;
+  float:right;
+	 border: 5px solid maroon;
+	 background-color: goldenrod;
+	 width: 25%;
+	 height:100%;
+}
