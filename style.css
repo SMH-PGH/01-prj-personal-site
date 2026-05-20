@@ -12,10 +12,17 @@
 * {
   box-sizing: border-box;
 }
-
+button{
+	background-color:goldenrod;
+	color:maroon;
+	border:double;
+}
+#buttonplace p{
+  color:maroon;
+}
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family:Courier New;
   background: var(--background);
   color: var(--text);
   line-height: 1.6;
@@ -27,6 +34,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px 0;
+  text-align:center;
 }
 
 .site-header {
@@ -72,10 +80,17 @@ body {
   padding: 20px;
 }
 
+#bio p {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 h2 {
   color: var(--text);
   margin-top: 0;
   text-align:center;
+
 }
 
 h3 {
@@ -98,19 +113,27 @@ h3 {
 }
 
 .project-item {
-  border-top: 1px solid var(--border);
-  padding-top: 14px;
-  margin-top: 14px;
+  text-align:center;
+  max-width: 500px;
+  margin:0 auto;
 }
 
 .project-item:first-child {
   border-top: none;
   padding-top: 0;
   margin-top: 0;
+  text-align: center;
 }
 
 .site-footer {
   padding: 16px 0;
   margin-top: 30px;
-  color: var(--text);
+  color: maroon;
+}
+img{
+  max-width: 20%;
+  padding:15px;
+  border-radius: 0%;
+  align-content:center;
+  margin: 25px;
 }
