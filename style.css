@@ -17,9 +17,6 @@ button{
 	color:maroon;
 	border:double;
 }
-#buttonplace p{
-  color:maroon;
-}
 body {
   margin: 0;
   font-family:Courier New;
@@ -104,7 +101,6 @@ h3 {
   display: inline-block;
   text-align: left;
   margin: 0 auto;
-  padding-left: 20px;
 }
 
 .skill-list li,
@@ -130,10 +126,15 @@ h3 {
   margin-top: 30px;
   color: maroon;
 }
-img{
-  max-width: 20%;
-  padding:15px;
-  border-radius: 0%;
+.main img{
+  margin: 15px;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 60%;
   align-content:center;
-  margin: 25px;
+}
+.icon img{
+  max-width: 50px;
+  max-height:50px;
+  border-radius: 50%;
 }
