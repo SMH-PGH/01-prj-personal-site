@@ -142,7 +142,7 @@ h3 {
   max-height:50px;
   border-radius: 25%;
 }
-.inspirations{
+#inspirations p{
  text-align: center;
   margin: 0 auto;
   max-width: 500px; 
